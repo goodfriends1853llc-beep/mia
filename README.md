@@ -42,3 +42,12 @@ git clone https://github.com/goodfriends1853llc-beep/mia.git
 cd mia
 pip install pynacl
 python run_demo.py
+
+## Demo Scripts
+
+Run core verification flows:
+
+```bash
+python run_demo.py
+python demo_replay.py
+python demo_diff.py
