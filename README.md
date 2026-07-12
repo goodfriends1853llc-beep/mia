@@ -1,3 +1,11 @@
+# MIA — Governed Continuity Runtime
+
+**Public Release:** v0.1  
+**Internal Runtime Version:** v0.8 (active development)
+
+MIA is a deterministic execution substrate for verifiable computation.  
+This repository currently reflects the v0.1 public release while the v0.8 governed continuity runtime is being prepared for full publication.
+
 # MIA v0.1 — Modular Intelligence Architecture
 
 MIA is a deterministic execution substrate.
