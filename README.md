@@ -30,6 +30,14 @@ Most AI systems cannot be trusted.
 
 If it matters, you’re guessing.
 
+## Version Roadmap
+
+- **v0.1** — Initial deterministic execution substrate (public)
+- **v0.2–v0.7** — Documentation, continuity modules, replay engine, registry substrate
+- **v0.8** — Governed Continuity Runtime (internal, active development)
+- **v0.9** — Capability governance and distributed registry validation
+- **v1.0** — Full governed AI ecosystem substrate
+
 ---
 
 ## What MIA Does
