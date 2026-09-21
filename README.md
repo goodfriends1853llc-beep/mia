@@ -1,53 +1,74 @@
 # MIA — Governed Continuity Runtime
 
 **Public Release:** v0.1  
-**Internal Runtime Version:** v0.8 (active development)
+**Internal Runtime Version:** v0.8 — active development  
+**License:** Apache License 2.0
 
-MIA is a deterministic execution substrate for verifiable computation.  
-This repository currently reflects the v0.1 public release while the v0.8 governed continuity runtime is being prepared for full publication.
+MIA is a deterministic execution substrate for verifiable computation.
 
-# MIA v0.1 — Modular Intelligence Architecture
+The public repository currently contains the MIA v0.1 proof release. A broader governed continuity runtime is under active development and is not represented here as fully published or production-ready.
 
-MIA is a deterministic execution substrate.
+MIA is not an AI model, agent, or application.
 
-It guarantees that any computation can be:
-
-- Proven (sealed output)
-- Reproduced (same input → same result)
-- Verified independently (external validation)
-- Compared (diffed across executions)
+It is infrastructure intended to sit beneath consequential execution.
 
 ---
 
-## The Problem
+## Why MIA Exists
 
-Most AI systems cannot be trusted.
+AI systems are becoming increasingly capable of proposing decisions and actions across consequential domains.
 
-- Outputs change between runs
-- Reasoning is not verifiable
-- Results cannot be replayed
-- No independent validation exists
+Capability alone does not establish:
 
-If it matters, you’re guessing.
+- what authority applied;
+- what information was used;
+- what actually executed;
+- what state changed;
+- whether an execution can be reconstructed;
+- whether an independent verifier can check the resulting evidence.
 
-## Version Roadmap
-
-- **v0.1** — Initial deterministic execution substrate (public)
-- **v0.2–v0.7** — Documentation, continuity modules, replay engine, registry substrate
-- **v0.8** — Governed Continuity Runtime (internal, active development)
-- **v0.9** — Capability governance and distributed registry validation
-- **v1.0** — Full governed AI ecosystem substrate
+MIA explores infrastructure for making execution more reconstructable, replayable, auditable, and independently verifiable.
 
 ---
 
-## What MIA Does
+## Public v0.1 Scope
 
-MIA replaces trust with:
+The public v0.1 repository includes code for:
 
-- deterministic execution
-- cryptographic sealing
-- multi-verifier consensus
-- replay + diff verification
+- deterministic execution flows;
+- execution snapshots;
+- canonical serialization;
+- SHA-256 sealing;
+- verifier identities and signatures;
+- multi-verifier result handling;
+- replay of prior executions;
+- comparison of replayed state against snapshots;
+- diffing between executions;
+- external verification of proof artifacts.
+
+These capabilities represent the current public proof surface.
+
+They should not be interpreted as proof that later roadmap capabilities are already implemented, production-ready, safety-certified, or suitable for unrestricted real-world deployment.
+
+---
+
+## Core Principle
+
+> If an execution cannot be replayed and independently verified, it should not be treated as sufficiently trustworthy for consequential use.
+
+MIA separates several states that are often collapsed together:
+
+**PROPOSED ≠ PERMITTED ≠ EXECUTED ≠ VERIFIED ≠ COMMITTED ≠ RECEIPTED**
+
+---
+
+## Execution Model
+
+At a high level:
+
+**INPUT → EXECUTION → SNAPSHOT → SEAL → VERIFICATION → REPLAY / DIFF**
+
+Given the same input, execution logic, and governed environment, MIA is designed to produce reproducible execution results.
 
 ---
 
@@ -58,12 +79,3 @@ git clone https://github.com/goodfriends1853llc-beep/mia.git
 cd mia
 pip install pynacl
 python run_demo.py
-
-## Demo Scripts
-
-Run core verification flows:
-
-```bash
-python run_demo.py
-python demo_replay.py
-python demo_diff.py
