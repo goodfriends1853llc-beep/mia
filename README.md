@@ -14,17 +14,19 @@ It is infrastructure intended to sit beneath consequential execution.
 
 ---
 
-## White Paper
+## White Papers
 
 **HSIE-WP-001 — MIA: A Governed Runtime for Evidence-Bound, Replayable AI Execution**  
-Tommie Bellamy — Human Systems Architect™  
-Release version: **v1.0.0**
+Release version: **v1.0.0**  
+[Read HSIE-WP-001](./docs/whitepapers/HSIE-WP-001/README.md)
 
-[Read the public GitHub edition](./docs/whitepapers/HSIE-WP-001/README.md)
+**HSIE-WP-002 — Reality ≠ Representation**  
+Release version: **v1.0.0**  
+[Read HSIE-WP-002](./docs/whitepapers/HSIE-WP-002/README.md)
 
-The white paper documents the architecture, frozen runtime evidence, later controlled external-boundary testing, claim ceilings, and open validation gates.
+[Browse the HSIE white-paper index](./docs/whitepapers/README.md)
 
-The white paper's release version is a **publication version**. It does not mean that the public code in this repository has silently become MIA Runtime v1.0.0.
+These publication versions do not silently change the release state of the public code, frozen runtime artifacts, or other HSIE components.
 
 ---
 
