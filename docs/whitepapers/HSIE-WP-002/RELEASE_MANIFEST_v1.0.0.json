@@ -1,0 +1,35 @@
+{
+  "publication_id": "HSIE-WP-002",
+  "title": "Reality ≠ Representation",
+  "subtitle": "A Systems Architecture for Keeping AI Records, Inferences, and Governed State Separate from the World They Describe",
+  "release_version": "v1.0.0",
+  "release_date": "2026-09-22",
+  "author": "Tommie Bellamy",
+  "author_identity": "Human Systems Architect™",
+  "foundation": "TB-SUB-001 v1.0.0",
+  "foundational_amendment": "NONE",
+  "release_artifact": {
+    "filename": "HSIE-WP-002_v1.0.0.md",
+    "sha256": "78b20d86aada162a8d1144174c22afcbb851e259e5a0d12dcf6749216b7d5f26",
+    "git_blob_sha": "33a61dc8dccd438e4a8bc5f2fb0b6f606a021439"
+  },
+  "review_gates": {
+    "technical_review_pass_1": "PASS",
+    "technical_review_pass_2": "PASS",
+    "claim_review": "PASS",
+    "external_reference_review": "VERIFIED THROUGH 2026-09-22",
+    "final_release_review": "PASS"
+  },
+  "minimum_representation_envelope": "CANDIDATE REFERENCE ARCHITECTURE / NOT FROZEN",
+  "owner_publication_authorization": "ISSUED — 2026-09-22",
+  "public_release": "RELEASED",
+  "draft_history_branch": "draft/hsie-wp-002-reality-representation",
+  "claim_ceiling": [
+    "No independent validation claimed.",
+    "No field validation claimed.",
+    "No production deployment claimed.",
+    "No certification claimed.",
+    "No universal sufficiency claim for the candidate Minimum Representation Envelope.",
+    "No formal conformance with W3C PROV, NIST AI RMF 1.0, or NIST AI 600-1 claimed."
+  ]
+}
