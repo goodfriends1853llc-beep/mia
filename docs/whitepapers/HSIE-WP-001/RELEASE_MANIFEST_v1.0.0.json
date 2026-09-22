@@ -1,0 +1,38 @@
+{
+  "publication_id": "HSIE-WP-001",
+  "title": "MIA: A Governed Runtime for Evidence-Bound, Replayable AI Execution",
+  "release_version": "v1.0.0",
+  "author": "Tommie Bellamy",
+  "author_identity": "Human Systems Architect™",
+  "release_date": "2026-09-21",
+  "system": "MIA™ — Modular Intelligence Architecture",
+  "foundation": "TB-SUB-001 v1.0.0",
+  "frozen_runtime": "MIA Runtime v1.0.0",
+  "foundational_amendment": "NONE",
+  "pdf_release_artifact": {
+    "filename": "HSIE-WP-001_MIA_v1.0.0.pdf",
+    "sha256": "e56f355504d1e699f0444ac810dd7a98c752604ea0e06ec1b9e0fa9704aa0aae",
+    "pages": 26,
+    "repository_binary_state": "NOT STORED IN THIS REPOSITORY EDITION"
+  },
+  "public_github_edition": {
+    "state": "RELEASED",
+    "format": "split Markdown publication set",
+    "repository": "goodfriends1853llc-beep/mia",
+    "path": "docs/whitepapers/HSIE-WP-001/"
+  },
+  "evidence": {
+    "frozen_runtime_sha256": "ac6fecd1458c8a6596ba5998ec63d461566196792d022b7d19db021b9d71405a",
+    "gate_repair_candidate3_sha256": "73ccaa32757f8b743cb39b9bc058fae39eb5c65e922796e765517158f628b96c",
+    "dispatch_evidence_sha256": "395dbfa577477bbfb30e1c0898b1ac970c8fdead6499a4bdb5873bbce3b7e396",
+    "offline_boundary_candidate2_sha256": "b775044b2d59b42f2974d709d145630674c435651ea3a9b95e6efdda594a873c",
+    "request_ledger_evidence_sha256": "9d47e3032c391ac1148759f45ca73676324197f851ffefbaa32d9cf1cb0369e8",
+    "offline_boundary_candidate3_sha256": "37c5b9f810308660bd35ba2d3316bcc938d305a4f04caef76b06dc9a8685d823"
+  },
+  "claim_ceiling": [
+    "Internal validation does not equal independent validation.",
+    "Offline boundary duplicate suppression does not equal exactly-once external effect.",
+    "No live-provider production validation is claimed.",
+    "No field validation is claimed."
+  ]
+}
