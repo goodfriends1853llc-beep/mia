@@ -857,11 +857,11 @@ It is a necessary design concern for consequential AI systems that are expected 
 
 # Evidence Status Note
 
-This document is a publication candidate.
+This publication is an architectural and epistemic systems paper.
 
 It does not represent independent validation, field validation, production deployment, certification, or a frozen conformance standard.
 
-Where this draft conflicts with TB-SUB-001 v1.0.0, frozen MIA artifacts, governed evidence, or later owner-authorized canon, the governed source retains authority.
+Where this publication conflicts with TB-SUB-001 v1.0.0, frozen MIA artifacts, governed evidence, or later owner-authorized canon, the governed source retains authority.
 
 **REALITY ≠ REPRESENTATION**
 
